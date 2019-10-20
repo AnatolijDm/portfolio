@@ -1,0 +1,429 @@
+body {
+  background-color: black;
+}
+
+.wrapper {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1400px;
+  background-color: #181944;
+}
+
+@media (max-width: 375px) {
+  .wrapper {
+    max-width: 375px;
+  }
+}
+
+.my_name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image: url(./assets/images/office.jpg);
+  background-size: cover;
+}
+
+@media (max-width: 375px) {
+  .my_name {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.my_name--photo {
+  width: 20%;
+  border: 5px solid black;
+  -webkit-box-shadow: 4px 7px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 4px 7px 5px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 1000px) {
+  .my_name--photo {
+    width: 30%;
+  }
+}
+
+@media (max-width: 600px) {
+  .my_name--photo {
+    width: 40%;
+  }
+}
+
+@media (max-width: 375px) {
+  .my_name--photo {
+    width: 50%;
+  }
+}
+
+.my_name--name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 30%;
+  height: 250px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-left: 5%;
+}
+
+@media (max-width: 375px) {
+  .my_name--name {
+    width: 90%;
+    margin-top: 20px;
+  }
+}
+
+.my_name--name h1 {
+  font-size: 20px;
+  line-height: 25px;
+  color: white;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.my_name--name p {
+  font-size: 15px;
+  line-height: 20px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+}
+
+.my_name--name a {
+  font-size: 15px;
+  line-height: 20px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Arial";
+  src: url(./assets/fonts/Arial.ttf);
+}
+
+.education {
+  width: 50%;
+  padding-left: 10%;
+}
+
+@media (max-width: 375px) {
+  .education {
+    padding-left: 5%;
+    width: 90%;
+  }
+}
+
+.education h2 {
+  font-size: 20px;
+  line-height: 25px;
+  color: white;
+}
+
+.education p {
+  font-size: 15px;
+  line-height: 20px;
+  color: white;
+}
+
+.School {
+  width: 100%;
+  height: 160px;
+  border: 1px solid black;
+  background: green;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+@media (max-width: 375px) {
+  .School {
+    height: 170px;
+  }
+}
+
+.School p {
+  font-size: 15px;
+  line-height: 20px;
+  color: white;
+  margin-top: 10px;
+}
+
+.School a {
+  font-size: 15px;
+  line-height: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.School img {
+  width: 7%;
+}
+
+@media (max-width: 375px) {
+  .School img {
+    width: 15%;
+  }
+}
+
+.University {
+  width: 100%;
+  height: 230px;
+  border: 1px solid black;
+  background: #14268f;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+@media (max-width: 375px) {
+  .University {
+    height: 260px;
+  }
+}
+
+.University p {
+  font-size: 15px;
+  line-height: 20px;
+  color: white;
+  margin-top: 10px;
+}
+
+.University a {
+  font-size: 15px;
+  line-height: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.University img {
+  width: 20%;
+}
+
+@media (max-width: 375px) {
+  .University img {
+    width: 40%;
+  }
+}
+
+.RSSchool_courses {
+  width: 100%;
+  height: 140px;
+  border: 1px solid black;
+  background: white;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.RSSchool_courses p {
+  font-size: 15px;
+  line-height: 20px;
+  color: black;
+  margin-top: 10px;
+}
+
+.RSSchool_courses a {
+  font-size: 15px;
+  line-height: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.RSSchool_courses img {
+  width: 10%;
+}
+
+@media (max-width: 375px) {
+  .RSSchool_courses img {
+    width: 30%;
+  }
+}
+
+.slider {
+  width: 90%;
+  height: 90%;
+  position: relative;
+  left: 50%;
+  text-align: center;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  background-color: white;
+}
+
+.slide_container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider_item {
+  display: none;
+  position: relative;
+  margin: 0 auto;
+  -webkit-animation: 0.5s ease-in-out;
+          animation: 0.5s ease-in-out;
+}
+
+.active,
+.next {
+  display: block;
+}
+
+.next {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.slider_description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 30px 20%;
+  font-size: 20px;
+  border: 1px solid black;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (max-width: 375px) {
+  .slider_description {
+    border: 0;
+  }
+}
+
+.project_name {
+  padding: 2%;
+}
+
+.project_name img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.control {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 15%;
+  cursor: pointer;
+}
+
+.control.left {
+  left: 0;
+  right: auto;
+}
+
+.control.right {
+  left: auto;
+  right: 0;
+}
+
+.arrow {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 40%;
+}
+
+@media (max-width: 375px) {
+  .arrow {
+    display: none;
+  }
+}
+
+.arrow.right {
+  right: 50%;
+}
+
+.to-left {
+  -webkit-animation-name: left;
+          animation-name: left;
+}
+
+.to-right {
+  -webkit-animation-name: right;
+          animation-name: right;
+  animation-direction: reverse;
+}
+
+.from-left {
+  -webkit-animation-name: left;
+          animation-name: left;
+  animation-direction: reverse;
+}
+
+.from-right {
+  -webkit-animation-name: right;
+          animation-name: right;
+}
+
+@-webkit-keyframes left {
+  from {
+    left: 0;
+  }
+  to {
+    left: -100%;
+  }
+}
+
+@keyframes left {
+  from {
+    left: 0;
+  }
+  to {
+    left: -100%;
+  }
+}
+
+@-webkit-keyframes right {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 0;
+  }
+}
+
+@keyframes right {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
