@@ -391,6 +391,22 @@ body {
           animation-name: right;
 }
 
+.butMob {
+  padding: 5px;
+  display: block;
+  height: 40px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.butDes {
+  padding: 5px;
+  display: none;
+  height: 40px;
+  text-align: center;
+  margin: 0 auto;
+}
+
 @-webkit-keyframes left {
   from {
     left: 0;
